@@ -1,0 +1,271 @@
+Script started on Sun Nov 26 14:06:26 2023
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[Jshivam.kumar@TN4CC94H4G containerisation % [K[?2004hddco d docker sr tart -t  it [7m987bd1352431[27m[12D[27m9[27m8[27m7[27mb[27md[27m1[27m3[27m5[27m2[27m4[27m3[27m1[?2004l
+unknown shorthand flag: 't' in -t
+See 'docker start --help'.
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[Jshivam.kumar@TN4CC94H4G containerisation % [K[?2004hdocker start -it 987bd1352431[12D[P[12C [13D[P[12C [13D[P[12C [13D[P[12C [13D-start 987bd1352431[18Dtstart 987bd1352431[18D start 987bd1352431[18D[P[18C [19D[P[18C [19Distart 987bd1352431[18Dtstart 987bd1352431[18D start 987bd1352431[18D[?2004l
+unknown shorthand flag: 'i' in -it
+See 'docker --help'.
+
+Usage:  docker [OPTIONS] COMMAND
+
+A self-sufficient runtime for containers
+
+Common Commands:
+  run         Create and run a new container from an image
+  exec        Execute a command in a running container
+  ps          List containers
+  build       Build an image from a Dockerfile
+  pull        Download an image from a registry
+  push        Upload an image to a registry
+  images      List images
+  login       Log in to a registry
+  logout      Log out from a registry
+  search      Search Docker Hub for images
+  version     Show the Docker version information
+  info        Display system-wide information
+
+Management Commands:
+  builder     Manage builds
+  buildx*     Docker Buildx (Docker Inc., v0.11.2)
+  compose*    Docker Compose (Docker Inc., 2.22.0)
+  container   Manage containers
+  context     Manage contexts
+  image       Manage images
+  manifest    Manage Docker image manifests and manifest lists
+  network     Manage networks
+  plugin      Manage plugins
+  system      Manage Docker
+  trust       Manage trust on Docker images
+  volume      Manage volumes
+
+Swarm Commands:
+  swarm       Manage Swarm
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  events      Get real time events from the server
+  export      Export a container's filesystem as a tar archive
+  history     Show the history of an image
+  import      Import the contents from a tarball to create a filesystem image
+  inspect     Return low-level information on Docker objects
+  kill        Kill one or more running containers
+  load        Load an image from a tar archive or STDIN
+  logs        Fetch the logs of a container
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  rmi         Remove one or more images
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  wait        Block until one or more containers stop, then print their exit codes
+
+Global Options:
+      --config string      Location of client config files (default "/Users/shivam.kumar/.docker")
+  -c, --context string     Name of the context to use to connect to the daemon (overrides DOCKER_HOST env var and default context set with "docker context use")
+  -D, --debug              Enable debug mode
+  -H, --host list          Daemon socket to connect to
+  -l, --log-level string   Set the logging level ("debug", "info", "warn", "error", "fatal") (default "info")
+      --tls                Use TLS; implied by --tlsverify
+      --tlscacert string   Trust certs signed only by this CA (default "/Users/shivam.kumar/.docker/ca.pem")
+      --tlscert string     Path to TLS certificate file (default "/Users/shivam.kumar/.docker/cert.pem")
+      --tlskey string      Path to TLS key file (default "/Users/shivam.kumar/.docker/key.pem")
+      --tlsverify          Use TLS and verify the remote
+  -v, --version            Print version information and quit
+
+Run 'docker COMMAND --help' for more information on a command.
+
+For more help on how to use Docker, head to https://docs.docker.com/go/guides/
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[Jshivam.kumar@TN4CC94H4G containerisation % [K[?2004hdocker -it start 987bd1352431[P[19C [20D[?2004l
+unknown shorthand flag: 'i' in -i
+See 'docker --help'.
+
+Usage:  docker [OPTIONS] COMMAND
+
+A self-sufficient runtime for containers
+
+Common Commands:
+  run         Create and run a new container from an image
+  exec        Execute a command in a running container
+  ps          List containers
+  build       Build an image from a Dockerfile
+  pull        Download an image from a registry
+  push        Upload an image to a registry
+  images      List images
+  login       Log in to a registry
+  logout      Log out from a registry
+  search      Search Docker Hub for images
+  version     Show the Docker version information
+  info        Display system-wide information
+
+Management Commands:
+  builder     Manage builds
+  buildx*     Docker Buildx (Docker Inc., v0.11.2)
+  compose*    Docker Compose (Docker Inc., 2.22.0)
+  container   Manage containers
+  context     Manage contexts
+  image       Manage images
+  manifest    Manage Docker image manifests and manifest lists
+  network     Manage networks
+  plugin      Manage plugins
+  system      Manage Docker
+  trust       Manage trust on Docker images
+  volume      Manage volumes
+
+Swarm Commands:
+  swarm       Manage Swarm
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  events      Get real time events from the server
+  export      Export a container's filesystem as a tar archive
+  history     Show the history of an image
+  import      Import the contents from a tarball to create a filesystem image
+  inspect     Return low-level information on Docker objects
+  kill        Kill one or more running containers
+  load        Load an image from a tar archive or STDIN
+  logs        Fetch the logs of a container
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  rmi         Remove one or more images
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  wait        Block until one or more containers stop, then print their exit codes
+
+Global Options:
+      --config string      Location of client config files (default "/Users/shivam.kumar/.docker")
+  -c, --context string     Name of the context to use to connect to the daemon (overrides DOCKER_HOST env var and default context set with "docker context use")
+  -D, --debug              Enable debug mode
+  -H, --host list          Daemon socket to connect to
+  -l, --log-level string   Set the logging level ("debug", "info", "warn", "error", "fatal") (default "info")
+      --tls                Use TLS; implied by --tlsverify
+      --tlscacert string   Trust certs signed only by this CA (default "/Users/shivam.kumar/.docker/ca.pem")
+      --tlscert string     Path to TLS certificate file (default "/Users/shivam.kumar/.docker/cert.pem")
+      --tlskey string      Path to TLS key file (default "/Users/shivam.kumar/.docker/key.pem")
+      --tlsverify          Use TLS and verify the remote
+  -v, --version            Print version information and quit
+
+Run 'docker COMMAND --help' for more information on a command.
+
+For more help on how to use Docker, head to https://docs.docker.com/go/guides/
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[Jshivam.kumar@TN4CC94H4G containerisation % [K[?2004hdocker -i start 987bd1352431[?2004l
+unknown shorthand flag: 'i' in -i
+See 'docker --help'.
+
+Usage:  docker [OPTIONS] COMMAND
+
+A self-sufficient runtime for containers
+
+Common Commands:
+  run         Create and run a new container from an image
+  exec        Execute a command in a running container
+  ps          List containers
+  build       Build an image from a Dockerfile
+  pull        Download an image from a registry
+  push        Upload an image to a registry
+  images      List images
+  login       Log in to a registry
+  logout      Log out from a registry
+  search      Search Docker Hub for images
+  version     Show the Docker version information
+  info        Display system-wide information
+
+Management Commands:
+  builder     Manage builds
+  buildx*     Docker Buildx (Docker Inc., v0.11.2)
+  compose*    Docker Compose (Docker Inc., 2.22.0)
+  container   Manage containers
+  context     Manage contexts
+  image       Manage images
+  manifest    Manage Docker image manifests and manifest lists
+  network     Manage networks
+  plugin      Manage plugins
+  system      Manage Docker
+  trust       Manage trust on Docker images
+  volume      Manage volumes
+
+Swarm Commands:
+  swarm       Manage Swarm
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  events      Get real time events from the server
+  export      Export a container's filesystem as a tar archive
+  history     Show the history of an image
+  import      Import the contents from a tarball to create a filesystem image
+  inspect     Return low-level information on Docker objects
+  kill        Kill one or more running containers
+  load        Load an image from a tar archive or STDIN
+  logs        Fetch the logs of a container
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  rmi         Remove one or more images
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  wait        Block until one or more containers stop, then print their exit codes
+
+Global Options:
+      --config string      Location of client config files (default "/Users/shivam.kumar/.docker")
+  -c, --context string     Name of the context to use to connect to the daemon (overrides DOCKER_HOST env var and default context set with "docker context use")
+  -D, --debug              Enable debug mode
+  -H, --host list          Daemon socket to connect to
+  -l, --log-level string   Set the logging level ("debug", "info", "warn", "error", "fatal") (default "info")
+      --tls                Use TLS; implied by --tlsverify
+      --tlscacert string   Trust certs signed only by this CA (default "/Users/shivam.kumar/.docker/ca.pem")
+      --tlscert string     Path to TLS certificate file (default "/Users/shivam.kumar/.docker/cert.pem")
+      --tlskey string      Path to TLS key file (default "/Users/shivam.kumar/.docker/key.pem")
+      --tlsverify          Use TLS and verify the remote
+  -v, --version            Print version information and quit
+
+Run 'docker COMMAND --help' for more information on a command.
+
+For more help on how to use Docker, head to https://docs.docker.com/go/guides/
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[Jshivam.kumar@TN4CC94H4G containerisation % [K[?2004hdocker -i start 987bd1352431[P[19C [20D[P[19C [20D[P[18C [20D[1C[1C[1C[1C[1C[1C[1C 987bd1352431[13D- 987bd1352431[13D[1C 987bd1352431[13D[P[12C [14Di 987bd1352431[13D[1C 987bd1352431[13D[?2004l
+[?2004h]0;root@987bd1352431: /root@987bd1352431:/# [K]0;root@987bd1352431: /root@987bd1352431:/# cd  nano usr/src/app/index.js 
+[?2004l[?2004h[?1049h[22;0;0t[1;31r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[29;75H(B[0;7m[ Reading... ](B[m[29;74H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 6.2 [58busr/src/app/index.js [67b [1;161H(B[m[30d(B[0;7m^G(B[m Help[30;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[30;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[30;113H(B[0;7mM-A(B[m Set Mark    (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[31d(B[0;7m^X(B[m Exit[31;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[31;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[31;113H(B[0;7mM-6(B[m Copy[31;129H(B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[2d[?12l[?25h[?25l[1;95H(B[0;7m*[161G(B[m[?12l[?25h[2dc[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25hs[?25l[?12l[?25ho[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25ho[?25l[?12l[?25hg[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hg[?25l[?12l[?25h([?25l[?12l[?25h"[?25l[?12l[?25hH[?25l[?12l[?25he[?25l[29d[K[?12l[?25h[2;16Hl[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h W[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25hl[?25l[?12l[?25hd[?25l[?12l[?25h[2;13H(B[0;1m[35m"Hello World"[39m(B[m[?25l[?12l[?25h([?25l[?12l[?25h [?25l[?12l[?25h)[?25l[30;17H[24X[30;41H(B[0;7mM-D(B[m DOS Forma[30;65H [9b[81G(B[0;7mM-A(B[m Append[14X[30;113H [7b(B[0;7mM-B(B[m Backup File[K[31;2H(B[0;7mC(B[m Cancel[17G[24X[31;41H(B[0;7mM-M(B[m Mac Format  [31;65H [9b[81G(B[0;7mM-P(B[m Prepend [12b[31;113H [7b(B[0;7m^T(B[m Browse[K[29d(B[0;7mFile Name to Write: usr/src/app/index.js [120b [29;41H(B[m[?12l[?25h[?25l[29;74H[1K (B[0;7m[ Writing... ](B[m[K[1;95H(B[0;7m [161G(B[m[29;74H(B[0;7m[ Wrote 1 line ](B[m[30;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cu[30;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[30;113H(B[0;7mM-A(B[m Set Mark    (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[31;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Paste[31;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[31;113H(B[0;7mM-6(B[m Copy [7b(B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[?12l[?25h[2;27H[?25l[29d[J[31d[?12l[?25h[31;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@987bd1352431: /root@987bd1352431:/# [Kno ano[Kca  t in[Kcst  at usr/sR rc/app/index.js 
+[?2004lconsole.log("Hello World")
+[?2004h]0;root@987bd1352431: /root@987bd1352431:/# exit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                                                                                                  [0m[27m[24m[Jshivam.kumar@TN4CC94H4G containerisation % [K[?2004heexit[?2004l
+
+Script done on Sun Nov 26 14:10:10 2023
