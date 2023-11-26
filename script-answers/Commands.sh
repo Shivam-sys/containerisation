@@ -40,3 +40,13 @@ docker run -it hello-node-world bash
 
 # Remove the old container
 docker container rm 987bd1352431
+
+# Run a container in interactive mode with custom name
+docker container run -it --name hello-node node:16 bash
+
+# Create a new directory inside the container
+# ->Run this inside container bash
+mkdir /usr/src/app
+
+# Copy your local files into the new directory
+docker container cp ./index.js hello-node:/usr/src/app/index.js
