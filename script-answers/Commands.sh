@@ -50,3 +50,10 @@ mkdir /usr/src/app
 
 # Copy your local files into the new directory
 docker container cp ./index.js hello-node:/usr/src/app/index.js
+
+## Create a Dockerfile
+# Run the command to build an image - this will create an image with name fs-hello-world
+docker build -t fs-hello-world .
+
+# Run the command to run container
+docker run fs-hello-world
