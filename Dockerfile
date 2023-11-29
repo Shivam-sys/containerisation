@@ -9,11 +9,14 @@ ENV DEBUG=containerisation:*
 
 WORKDIR /usr/src/app
 
-# Don’t run containers as root
-COPY --chown=node:node . /usr/src/app
+# Copy package files first, to save time on build as package files changes less often.
+COPY package* .
 
 # Install dependencied from Lockfile, and Don't install devDependencies,
 RUN npm ci --only=production
+
+# Don’t run containers as root
+COPY --chown=node:node . /usr/src/app
 
 USER node
 
