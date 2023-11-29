@@ -1,0 +1,16 @@
+FROM node:16
+
+WORKDIR /usr/src/app
+
+# provide only required access and not root access
+COPY --chown=node:node . .
+
+# ci creates reliable builds from package-lock  
+RUN npm ci
+
+ENV DEBUG=containerisation:*
+USER node
+CMD npm start
+# or CMD DEBUG=containerisation:* npm start
+
+# The new more secure Dockerfile is created in a file name Dockerfile.
