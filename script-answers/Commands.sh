@@ -57,3 +57,33 @@ docker build -t fs-hello-world .
 
 # Run the command to run container
 docker run fs-hello-world
+
+# Get docker memory
+docker system df
+# Delete unused docker images 
+docker image prune -a
+# Delete unused docker containers 
+docker container prune
+# Delete unused docker volumes
+docker volume prune
+
+
+## Docker compose
+# Create a Dockerfile, if you want to use local image
+# Create a docker-compose.yml file and run
+docker compose up 
+# Or specify the file manually like this, -d to run it in detached mode
+docker compose -f docker-compose.dev.yml up -d
+# If running in detached mode, use this to stop the container
+docker compose down 
+# Or docker compose -f docker-compose.dev.yml down --volumes
+
+# See Volumes
+docker volume ls
+
+# Inspect a volume
+docker volume inspect todo-backend_mongo_data
+
+# Once containers are started by compose up, go inside it by-
+docker exec -it <container_name> bash
+docker exec -it todo-backend-mongo-1 bash 

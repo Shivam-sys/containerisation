@@ -1,0 +1,26 @@
+services:
+  mongo:
+    image: mongo
+    ports:
+      - "3456:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_DATABASE: the_database
+    volumes:       
+      - ./mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
+      # Doing this way volume is handled by docker.
+      - mongo_data:/data/db
+      # Other way: make a directory mongo_data. then no need to specify key 'volumes' below.
+      # - ./mongo_data:/data/db
+  redis:
+    image: redis
+    # Default poer of redis is 6379
+    ports:
+      - "3457:6379"
+    command: ['redis-server', '--appendonly', 'yes'] # Overwrite the CMD
+    volumes: # Declare the volume
+      - redis_data:/data
+volumes:
+  mongo_data:
+  redis_data:
